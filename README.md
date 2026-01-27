@@ -1,4 +1,4 @@
-# LocalMultiplayerVRTemplate
+# LocalMultiplayerVRTemplate (StolenNotOurWork)
 
 This template was created for our research project in the Master's programme in Media Informatics at the HFU. It is designed to help people easily develop their own colocated multiplayer VR applications.
 
