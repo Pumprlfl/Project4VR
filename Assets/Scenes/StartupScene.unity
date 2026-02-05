@@ -318,6 +318,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 804294603}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1884657926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2699295885192630998, guid: 77ac6b10722bcca4a8baf70e44d89e78,
+    type: 3}
+  m_PrefabInstance: {fileID: 3360060561293820341}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &197678116964846463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1492,6 +1498,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -258.55
       objectReference: {fileID: 0}
+    - target: {fileID: 2630688503350210231, guid: 77ac6b10722bcca4a8baf70e44d89e78,
+        type: 3}
+      propertyPath: m_LeftHand
+      value: 
+      objectReference: {fileID: 1884657926}
     - target: {fileID: 2796538901710152689, guid: 77ac6b10722bcca4a8baf70e44d89e78,
         type: 3}
       propertyPath: m_Spacing
