@@ -44,9 +44,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/MolekulProject/Scenes/GeneratedScenes/Szenario 6 Polymerase.unity
     guid: da0c451167c383a4a8ce366e30167409
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FrogScene.unity
     guid: 74d9afde7d2d83f49b9442a35ddfef06
+  - enabled: 1
+    path: Assets/Scenes/FountainScene.unity
+    guid: 9ababd65801e06b48b6a9ac806587524
+  - enabled: 1
+    path: Assets/Scenes/FrogsceneforChris.unity
+    guid: 435d3303c7140a3449ac877c9f5f7b78
+  - enabled: 1
+    path: Assets/Scenes/LampRoom.unity
+    guid: 63dc47c753c354848a9b2742098ae543
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e3aee76b9372917449aef639e2f74814,
       type: 2}
