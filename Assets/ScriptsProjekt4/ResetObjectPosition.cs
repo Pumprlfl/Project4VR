@@ -12,9 +12,6 @@ public class ResetObjectPosition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
-            gameObject.transform.position = originalpos;        
-        }
+        gameObject.transform.position = originalpos;
     }
 }
