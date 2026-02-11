@@ -1,33 +1,52 @@
-using Oculus.Interaction;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit.Interactors;
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
-//maybe try including the ResetObjectPosition here instead of another script
-public class TrackobjectForPitch : MonoBehaviour
+[RequireComponent(typeof(AudioSource))]
+[RequireComponent(typeof(XRGrabInteractable))]
+public class TrackObjectForPitch : MonoBehaviour
 {
-    AudioSource  audiosource;
-    [SerializeField] int startpitch;
-    [SerializeField] AudioClip frogSound;
+    private AudioSource audioSource;
+    private XRGrabInteractable grabInteractable;
 
-    Vector3 originalpos;
-    private float pitchValue;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private Vector3 originalPos;
+
+    [SerializeField] private float startPitch = 1f;
+    [SerializeField] private AudioClip frogSound;
+
+    private bool isGrabbed = false;
+
     void Start()
     {
-        audiosource = GetComponent<AudioSource>();
-        audiosource.clip = frogSound;
-        audiosource.pitch = startpitch;
-        originalpos = gameObject.transform.position;
+        audioSource = GetComponent<AudioSource>();
+        grabInteractable = GetComponent<XRGrabInteractable>();
+
+        originalPos = transform.position;
+
+        grabInteractable.selectEntered.AddListener(OnGrab);
+        grabInteractable.selectExited.AddListener(OnRelease);
     }
 
-    // Update is called once per frame
+    void OnGrab(SelectEnterEventArgs args)
+    {
+        isGrabbed = true;
+        audioSource.Play();
+    }
+
+    void OnRelease(SelectExitEventArgs args)
+    {
+        isGrabbed = false;
+        audioSource.Stop();
+
+        transform.position = originalPos;
+    }
+
     void Update()
     {
-        audiosource.Play();
-        pitchValue = gameObject.transform.position.y;
-        print(pitchValue);
-        audiosource.pitch = startpitch + pitchValue;
-        
-
+        if (isGrabbed)
+        {
+            float pitchValue = transform.position.y;
+            audioSource.pitch = startPitch + pitchValue;
+        }
     }
 }
