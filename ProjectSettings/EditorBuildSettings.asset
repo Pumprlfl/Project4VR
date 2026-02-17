@@ -56,6 +56,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LampRoom.unity
     guid: 63dc47c753c354848a9b2742098ae543
+  - enabled: 1
+    path: Assets/Scenes/Frogscene.unity
+    guid: 3b1bb3e3f9f9b9b4892b86fe6d243e06
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e3aee76b9372917449aef639e2f74814,
       type: 2}
