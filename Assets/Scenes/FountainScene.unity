@@ -538,27 +538,27 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b023d4e647e0cc04e9742e9648c8725d,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 52.899437
+      value: 52.904984
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b023d4e647e0cc04e9742e9648c8725d,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 51.631966
+      value: 51.64156
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b023d4e647e0cc04e9742e9648c8725d,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 14.826715
+      value: 61.317184
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b023d4e647e0cc04e9742e9648c8725d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.20950304
+      value: 0.20950305
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b023d4e647e0cc04e9742e9648c8725d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.03884297
+      value: -0.9197761
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b023d4e647e0cc04e9742e9648c8725d,
         type: 3}
@@ -632,7 +632,7 @@ PrefabInstance:
     - target: {fileID: 440579945118131756, guid: e304cc8bd9556dc44b907cc02d2de785,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 6.745106
+      value: 1.6308317
       objectReference: {fileID: 0}
     - target: {fileID: 440579945118131756, guid: e304cc8bd9556dc44b907cc02d2de785,
         type: 3}
@@ -647,7 +647,7 @@ PrefabInstance:
     - target: {fileID: 440579945118131756, guid: e304cc8bd9556dc44b907cc02d2de785,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.982
+      value: 2.22
       objectReference: {fileID: 0}
     - target: {fileID: 440579945118131756, guid: e304cc8bd9556dc44b907cc02d2de785,
         type: 3}
@@ -962,6 +962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverOffset: {x: 0, y: 0.1, z: 0}
+  moveDuration: 0.15
 --- !u!1001 &1173005415
 PrefabInstance:
   m_ObjectHideFlags: 0
