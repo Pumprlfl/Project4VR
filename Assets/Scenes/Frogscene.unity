@@ -2957,7 +2957,7 @@ PrefabInstance:
     - target: {fileID: 3128732801114144537, guid: d465faf97be16c141add6a2a0e79787c,
         type: 3}
       propertyPath: m_sceneNames.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3128732801114144537, guid: d465faf97be16c141add6a2a0e79787c,
         type: 3}
@@ -2967,7 +2967,7 @@ PrefabInstance:
     - target: {fileID: 3128732801114144537, guid: d465faf97be16c141add6a2a0e79787c,
         type: 3}
       propertyPath: 'm_sceneNames.Array.data[1]'
-      value: Frogscene
+      value: FountainScene
       objectReference: {fileID: 0}
     - target: {fileID: 3128732801114144537, guid: d465faf97be16c141add6a2a0e79787c,
         type: 3}
