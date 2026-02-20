@@ -923,27 +923,27 @@ PrefabInstance:
     - target: {fileID: 3128732801114144537, guid: d465faf97be16c141add6a2a0e79787c,
         type: 3}
       propertyPath: m_sceneNames.Array.size
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3128732801114144537, guid: d465faf97be16c141add6a2a0e79787c,
         type: 3}
       propertyPath: 'm_sceneNames.Array.data[0]'
-      value: BasicScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 3128732801114144537, guid: d465faf97be16c141add6a2a0e79787c,
-        type: 3}
-      propertyPath: 'm_sceneNames.Array.data[1]'
       value: FountainScene
       objectReference: {fileID: 0}
     - target: {fileID: 3128732801114144537, guid: d465faf97be16c141add6a2a0e79787c,
         type: 3}
+      propertyPath: 'm_sceneNames.Array.data[1]'
+      value: LampRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128732801114144537, guid: d465faf97be16c141add6a2a0e79787c,
+        type: 3}
       propertyPath: 'm_sceneNames.Array.data[2]'
-      value: FrogSceneforChris
+      value: Frogscene
       objectReference: {fileID: 0}
     - target: {fileID: 3128732801114144537, guid: d465faf97be16c141add6a2a0e79787c,
         type: 3}
       propertyPath: 'm_sceneNames.Array.data[3]'
-      value: LampRoom
+      value: Frogscene
       objectReference: {fileID: 0}
     - target: {fileID: 3128732801114144537, guid: d465faf97be16c141add6a2a0e79787c,
         type: 3}
